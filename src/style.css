@@ -1,0 +1,184 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+body{
+  font-family: Neucha;
+  width:100%;
+  height:auto;
+  margin: 0px auto;
+  background-color: #00BFA5;
+ }
+
+#pokes{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  margin:5px;
+  box-shadow:0px 2px 10px #3AC569;
+  background: #FFFFFF;
+  text-align:center;
+  border-radius:10px;
+  padding:10px;
+  width:180px;
+  transition:all .4s;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card:hover{
+  box-shadow:1px 5px 10px #FBD14B;
+  transform:scale(1.65)
+}
+
+
+#uno{
+  background-color:#008e76;
+  border-radius: 20px;
+  display: flex;
+    }
+
+
+header{
+  width: 100%;
+  height: 150px;
+  background-color: #00BFA5;
+  text-align:center;
+}
+
+
+main{
+  position: relative;
+}
+
+nav{
+  width: 100%;
+  height: 50px;
+  background: #00BFA5;
+  margin-top: 10px;
+}
+
+nav ul{
+  padding-top: 10px;
+  text-align: center;
+  padding-left: 400px;
+}
+
+nav ul li{
+  display: inline;
+  list-style-type:none;
+}
+
+nav ul li a, nav ul li a:link, nav ul li a:visited{
+  float:right;
+  width: 200px;
+  height: 30px;
+  color: #FFFFFF;
+  text-decoration:none;
+  font-family;
+  font-size: 23px;
+  margin: 0 20px;
+  padding-top: 5px;
+  background: #00BFA5;
+}
+
+
+nav ul li a:hover{
+  color: #FFFFFF ;
+  background: #FBD14B;
+}
+
+nav ul li a:active{
+  color: #3AC569 ;
+  background: #CEE3F6;
+}
+
+
+img{
+  width: 680px;
+
+}
+
+ #inicio{
+  width: 630px;
+  height: 200px;
+  margin: 180px auto;
+  overflow: hidden;
+  box-shadow: 6px 6px 16px #5F9EA0;
+  border-radius: 20px;
+}
+
+#inicio ul{
+  list-style: none;
+  width: 640px;
+  display: flex;
+  animation: slide 20s infinite alternate;
+}
+
+@keyframes slide{
+  0% {margin-left: -40px;}
+  20% {margin-left: -40px;}
+
+  25% {margin-left: -720px;}
+  45% {margin-left: -720px;}
+
+  50% {margin-left: -1400px;}
+  70% {margin-left: -1400px;}
+
+  75% {margin-left: -2080px;}
+  100% {margin-left: -2080px;}
+}
+
+
+
+.cards{
+  margin:5px;
+  box-shadow:0px 2px 10px #3AC569;
+  background: #FFFFFF;
+  text-align:center;
+  border-radius:10px;
+  padding:10px;
+  width:180px;
+  transition:all .4s;
+  display: flex;
+}
+
+.cards:hover{
+  box-shadow:1px 5px 10px #FBD14B;
+  transform:scale(1.3)
+}
+
+figure{
+  float: none;
+  width: 90%;
+}
+
+.tipos{
+  text-align: center;
+}
+
+.imagcopo{
+width: 100px;
+height: 100px;
+}
+
+footer{
+  width: 1024px;
+  height: 9%;
+  bottom: 0px;
+  position: fixed;
+  /*text-align: center;*/
+}
+
+.juego{
+  width: 65px;
+  height: 65px;
+}
+
+.redirigir{
+  width: 45px;
+  height: 45px;
+}
